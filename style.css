@@ -1,0 +1,133 @@
+html, body{
+    margin: 0;
+    background-color: rgb(181, 235, 217);
+}
+
+header{
+    background-color: rgb(3, 54, 3);
+    color: white;
+    margin-top: 0;
+    height: 60px;
+    width: 100%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li{
+    float: left;
+    padding: 20px 10px;
+    
+}
+li:hover{
+    background-color: green;
+}
+#logo{
+    width: 100px;
+    top: 10px;
+    position: static;
+    margin-left: 5%;
+    float: left;
+}
+
+#imagem-fundo{
+    background: url("fundoimg.jpg");
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo{
+    color: rgba(3, 71, 3, 0.845);
+    padding-top: 20%;
+    font-size: 60px;
+    line-height: 0.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#subtitulo{
+    color: rgba(3, 79, 3, 0.845);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    font-size: 40px;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+
+#acao{
+    color: rgb(2, 53, 2);
+    border: 1px rgb(235, 244, 242) solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 55px;
+}
+
+#selecao{
+    padding: 30px;
+    float: left;
+}
+
+.topicos{
+    width: 50%;
+    height: 20%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+.tres{
+    width: 20%;
+    padding: 0 2%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.fonte{
+    font-size: 22px;
+}
+
+.fontedois{
+    font-size: 35px;
+}
+#acoes{
+    float: left;
+}
+.tam{
+    font-size: 20px;
+}
+#sobre{
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 5%;
+}
+footer{
+    background-color: rgb(3, 54, 3);
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+}
